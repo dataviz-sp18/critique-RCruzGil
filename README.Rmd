@@ -1,0 +1,12 @@
+---
+title: "README"
+author: "Rafael Cruz Gil"
+date: "9 April 2018"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+The only package needed is tidyverse. The parts of the assignment are separated as part 1 and part 2.

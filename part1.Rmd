@@ -1,0 +1,22 @@
+---
+title: "Assignment 1"
+author: "Rafael Cruz Gil"
+date: "9 April 2018"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Part 1
+
+I’m critiquing the visualisation found [here](https://www.themarshallproject.org/2018/03/30/the-myth-of-the-criminal-immigrant?ref=hp-1-112). This would actually be a series of visualisations that discuss the link between immigration and crime. It was a collaboration between The Marshall Project and the *New York Times*’ Upshot. It argues that the idea that greater immigration leads to increasing rates of crime is false and does not correspond to reality.
+
+The data comes from different sources. The perception that immigrants make crime worse is substantiated on Gallup polls. The comparison between immigration and crime rate was obtained from a journal article that was the result of a collaboration between four universities. This study focused on 200 metropolitan areas throughout the USA. The article covered 1970 to 2010. To offer data up to date, The Marshall Project used information from the American Community Survey and the FBI Uniform Crime Reporting Program to offer data for 2016. Details are offered about how missing cases were treated. Therefore, it can be said that the data behind the visualisations is trustworthy. The visualisations themselves are truthful too, although the last row of visualisations is missing units on its y axis and requires people to actually point above each case (the same is also true for the previous row of visualisations, but there is a legend that states that it refers to change in percentage). Thus, I believe that the visualisations may be called truthful.
+
+As for it being functional, a more detailed breakthrough is needed. The first pair of visualisations, simple lines that show the overall trends of immigration and violent crime rate, are simple and easy to understand at a glance. The next visualisation, a scatterplot that compares change in number of immigrants and crime rate between 1980 and 2016 in metropolitan areas, is harder to take in at a glance and relies on rates and baselines. It needs more careful consideration than the previous one, but it does not lend itself to confusion. The next line of visualisations compare immigration and crime rates by metro separately. They appear cluttered, but I believe this is by design; they intend to showcase how prevalent the respective trends are in each case. The final line of graphs, one which shows immigrant population per metro and three others that present violent crime categories per metro (assault, robberies, and murders), and also gives the option to search for a specfic metropolitan area, is perhaps a bit more deceptive. Increases are marked in magenta and decreases in green. The green colour appears softer and the magenta stands out. This coupled, with the large number of outlier metropolitan areas in which the different categories of crime have increased, might, at first glance, give a false impression.
+
+To critique the categories of beautiful and insightful, I believe in this case the categories go pretty much together. All graphs but the one that compares overall immigration change and crime rate change from 1980 to 2016 are, in my opinion, beautiful; the colour scheme is attractive and their simplicity itself makes them effective. The one exception, mentioned before, does not look appealing, and the unusual location of the axis only detracts. For insightfulness, the pattern seems to repeats itself, since at a single glance it is possible to tell how the overall trends have been, apart from the scatterplot. The last line of visualisations might also be a bit problematic, for the reason outlined in the paragraph about functionality.
+
+Finally, I do believe the set of visualisations is enlightening. It shows how crime has fallen steadily through the last 36 years, while immigration has only increased. Giving the option to look up cities which people reading might inhabit, or at least have visited, should help bring the data to a less abstract level. By showing the way in which this trends actually play out, it might help any prejudiced person who comes across to at least question previous assumptations. This is the kind of visualisation that might challenge prejudice and inspire people to oppose policy rooted in it. However, it has the disadvantage of being a bit long, which might detract from its ability to keep potential readers engaged. 
